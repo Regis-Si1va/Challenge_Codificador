@@ -29,23 +29,22 @@ header img {
 }
 
  .aviso {
-	flex-direction: row;
 	align-items: center;
 	position: absolute;
-	width: 25%;
+	width: 20rem;
 	left: 10%;
-	top: 90%;
+	top: 80%;
 	font-size: 0.6em;
 }
 
 .botoes {
-	display: flex;
+	display: inline-flex;
 	flex-direction: row;
 	position: absolute;
 	width: 60%;
 	height: 4em;
 	left: 10%;
-	top: 95%;
+	top: 85%;
 }
 
 .cripto {
@@ -134,7 +133,7 @@ header img {
 	border: none;
 	position: absolute;
 	width: 30%;
-	height: 90%;
+	height: 85%;
 	left: 65%;
 	top: 10%;
 	font-size: 18px;
@@ -147,7 +146,7 @@ header img {
 .texto::placeholder {
 	position: absolute;
 	align-items: center;
-	margin-top: 80%;
+	margin-top: 78%;
 	right: 25%;
 	font-size: 18px;
 	background:  transparent;
@@ -168,11 +167,12 @@ header img {
 	transform: scale(1.1);
 	background-color: #b7adad;
 	transition: 1.0s;
+	font-weight: bold;
 }
 
 footer {
 	position: static;
-	margin-top: 12%;
+	margin-top: 8%;
 	height: 6rem;
     text-align: center;
     line-height: 1em;
