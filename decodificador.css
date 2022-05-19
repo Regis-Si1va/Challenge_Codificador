@@ -1,0 +1,180 @@
+html {
+	font-family: 'Montserrat', sans-serif;
+	background: #d2def0;
+}
+
+main {
+	display: flex;
+	margin-top: 5%;
+}
+
+header img {
+	margin: 3% 0 0 3%;
+}
+
+.msg {
+	border: none;
+	font-size: 40px;
+	width: 80%;
+	height: 80%;
+	margin-left: 25%;
+	margin-top: 3%;
+	line-height: 150%;
+	word-wrap: initial;
+	background: transparent;
+}
+
+.msg::placeholder {
+	color: #0A3871;
+}
+
+ .aviso {
+	flex-direction: row;
+	align-items: center;
+	position: absolute;
+	width: 25%;
+	left: 10%;
+	top: 90%;
+	font-size: 0.6em;
+}
+
+.botoes {
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+	width: 60%;
+	height: 4em;
+	left: 10%;
+	top: 95%;
+}
+
+.cripto {
+	Width: 328px;
+	Height: 60px;
+	border-Radius: 24px;
+	Padding: 15px;
+	background: #0A3871;
+	border: none;
+	text-align: top;
+	font-size: 18px;
+}
+
+.cripto:hover {
+	transform: scale(1.1);
+	transition: 1s;
+	font-weight: bold;
+}
+
+.cripto p {
+	color: white;
+	position: static;
+	font-size: 18px;
+	line-height: 19px;
+	text-align: center;
+	flex: none;
+	order: 0;
+	flex-grow: 1;
+	margin: 0px 8px;
+}
+
+
+.descripto {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 15px;
+	position: static;
+	width: 328px;
+	height: 60px;
+	margin-left: 40px;
+	background: lightgrey;
+	border: 1px solid grey;
+	box-sizing: border-box;
+	border-radius: 24px;
+
+}
+
+.descripto:hover {
+	transform: scale(1.1);
+	transition: 1s;
+	font-weight: bold;
+}
+
+.descripto p {
+	color: black;
+	position: static;
+	font-size: 18px;
+	line-height: 19px;
+	text-align: center;
+	flex: none;
+	order: 0;
+	flex-grow: 1;
+	margin: 8px 8px;
+	border-color: #eeeeee;	
+}
+
+.texto {
+	border: none;
+	width: 80%;
+	margin: 10% auto;
+	height: 60%;
+	padding: 15px;
+	text-align: center;
+	font-size: 19px;
+	word-break: initial;
+	background-image: url("produtos.png");
+	background-repeat: no-repeat;
+	background-position: center 1em, left top;
+}
+
+#retangulo {
+	display: flex;
+	border: none;
+	position: absolute;
+	width: 30%;
+	height: 90%;
+	left: 65%;
+	top: 10%;
+	font-size: 18px;
+	font-weight: bold;
+	word-break: break-all;
+	background: #FFFFFF;
+	border-radius: 32px;
+}
+
+.texto::placeholder {
+	position: absolute;
+	align-items: center;
+	margin-top: 80%;
+	right: 25%;
+	font-size: 18px;
+	background:  transparent;
+}
+
+.copiar {
+	position: absolute;
+	right: 37%;
+	top: 90%;
+	width: 120px;
+	height: 40px;
+	font-size: 16px;
+	border-radius: 12px;
+	border-color: lightgray;
+}
+
+footer {
+	position: relative;
+	margin-top: 10%;
+	height: 6rem;
+    text-align: center;
+    line-height: 1em;
+    background-color: #92afca;
+    padding-bottom: 2px;
+    color: white;
+
+}
+
+.redes {
+	width: 28px;
+	margin: 15px 15px 10px 0;
+}
