@@ -14,7 +14,7 @@ header img {
 
 .msg {
 	border: none;
-	font-size: 40px;
+	font-size: 35px;
 	width: 80%;
 	height: 80%;
 	margin-left: 25%;
@@ -34,7 +34,7 @@ header img {
 	position: absolute;
 	width: 25%;
 	left: 10%;
-	top: 88%;
+	top: 80%;
 	font-size: 0.6em;
 }
 
@@ -45,7 +45,7 @@ header img {
 	width: 50%;
 	height: 4em;
 	left: 10%;
-	top: 93%;
+	top: 85%;
 }
 
 .cripto {
@@ -132,7 +132,7 @@ header img {
 	border: none;
 	position: absolute;
 	width: 33%;
-	height: 88%;
+	height: 80%;
 	left: 60%;
 	top: 10%;
 	font-size: 18px;
