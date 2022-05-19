@@ -63,6 +63,7 @@ header img {
 	transform: scale(1.1);
 	transition: 1s;
 	font-weight: bold;
+	background-color: #052746;
 }
 
 .cripto p {
@@ -98,6 +99,7 @@ header img {
 	transform: scale(1.1);
 	transition: 1s;
 	font-weight: bold;
+	background-color: #b7adad;
 }
 
 .descripto p {
@@ -160,6 +162,12 @@ header img {
 	font-size: 16px;
 	border-radius: 14px;
 	border-color: lightgray;
+}
+
+.copiar:hover {
+	transform: scale(1.1);
+	background-color: #b7adad;
+	transition: 1.0s;
 }
 
 footer {
