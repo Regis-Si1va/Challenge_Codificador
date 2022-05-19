@@ -1,19 +1,18 @@
 const cxMsg1 = document.querySelector(".msg");
 const cxMsg2 = document.querySelector(".texto");
-const imgTexto = document.getElementById('#retangulo')
 
 function btnEncriptar() {
 
 	const strEncriptado = encriptar(cxMsg1.value);
 	cxMsg2.value = strEncriptado;
 	cxMsg2.style.background = "none";
-
 	cxMsg1.value = '';
 }
 
 function btnDesencriptar() {
 	const mensagem = desencriptar(cxMsg1.value);
 	cxMsg2.value = mensagem;
+	cxMsg2.style.background = "none";
 	cxMsg1.value = '';
 }
 
@@ -49,6 +48,9 @@ function copiar(){
     cxMsg2.select();
     document.execCommand('copy');
     document.execCommand('delete');
+    let imgTexto = document.querySelector(".texto");
+    imgTexto.style.backgroundImage = "url(produtos.png)";
+    imgTexto.style.backgroundRepeat = "no-repeat"
 }
 
 let btnCopiar = document.querySelector("button.copiar");

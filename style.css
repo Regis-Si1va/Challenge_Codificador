@@ -34,7 +34,7 @@ header img {
 	position: absolute;
 	width: 25%;
 	left: 10%;
-	top: 90%;
+	top: 88%;
 	font-size: 0.6em;
 }
 
@@ -42,14 +42,14 @@ header img {
 	display: flex;
 	flex-direction: row;
 	position: absolute;
-	width: 60%;
+	width: 50%;
 	height: 4em;
 	left: 10%;
-	top: 95%;
+	top: 93%;
 }
 
 .cripto {
-	Width: 328px;
+	Width: 300px;
 	Height: 60px;
 	border-Radius: 24px;
 	Padding: 15px;
@@ -84,7 +84,7 @@ header img {
 	align-items: flex-start;
 	padding: 15px;
 	position: static;
-	width: 328px;
+	width: 300px;
 	height: 60px;
 	margin-left: 40px;
 	background: lightgrey;
@@ -131,9 +131,9 @@ header img {
 	display: flex;
 	border: none;
 	position: absolute;
-	width: 30%;
-	height: 90%;
-	left: 65%;
+	width: 33%;
+	height: 88%;
+	left: 60%;
 	top: 10%;
 	font-size: 18px;
 	font-weight: bold;
@@ -145,7 +145,7 @@ header img {
 .texto::placeholder {
 	position: absolute;
 	align-items: center;
-	margin-top: 80%;
+	margin-top: 75%;
 	right: 25%;
 	font-size: 18px;
 	background:  transparent;
@@ -163,13 +163,14 @@ header img {
 }
 
 footer {
+	width: 1510px;
 	position: relative;
 	margin-top: 10%;
 	height: 6rem;
     text-align: center;
     line-height: 1em;
     background-color: #92afca;
-    padding-bottom: 2px;
+    padding-bottom: 3px;
     color: white;
 
 }
