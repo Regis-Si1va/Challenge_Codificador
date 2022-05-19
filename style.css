@@ -116,13 +116,13 @@ header img {
 
 .texto {
 	border: none;
-	width: 80%;
 	margin: 10% auto;
 	height: 60%;
-	padding: 15px;
+	padding: 10%;
 	text-align: center;
 	font-size: 19px;
-	word-break: initial;
+	word-wrap: initial;
+	word-break: break-all;
 	background-image: url("produtos.png");
 	background-repeat: no-repeat;
 	background-position: center 1em, left top;
@@ -136,18 +136,13 @@ header img {
 	height: 85%;
 	left: 65%;
 	top: 10%;
-	font-size: 18px;
-	font-weight: bold;
-	word-break: break-all;
 	background: #FFFFFF;
 	border-radius: 32px;
 }
 
 .texto::placeholder {
 	position: absolute;
-	align-items: center;
-	margin-top: 78%;
-	right: 25%;
+	margin-top: 86%;
 	font-size: 18px;
 	background:  transparent;
 }
