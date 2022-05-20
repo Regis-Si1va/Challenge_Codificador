@@ -13,6 +13,7 @@ function btnDesencriptar() {
 	const mensagem = desencriptar(cxMsg1.value);
 	cxMsg2.value = mensagem;
 	cxMsg2.style.background = "none";
+	cxMsg2.style.wordWrap = "initial";
 	cxMsg1.value = '';
 }
 

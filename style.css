@@ -117,19 +117,17 @@ header img {
 .texto {
 	border: none;
 	margin: 10% auto;
-	height: 60%;
-	padding: 10%;
-	text-align: center;
+	width: 20em;
+	height: 80%;
 	font-size: 19px;
-	word-wrap: initial;
-	word-break: break-all;
+	text-align: center;
 	background-image: url("produtos.png");
 	background-repeat: no-repeat;
 	background-position: center 1em, left top;
 }
 
 #retangulo {
-	display: flex;
+	display: inline-flex;
 	border: none;
 	position: absolute;
 	width: 30%;
@@ -140,17 +138,27 @@ header img {
 	border-radius: 32px;
 }
 
+#retangulo p {
+	margin-top: 95%;
+	text-align: center;
+}
+
 .texto::placeholder {
 	position: absolute;
 	margin-top: 86%;
+	margin-left: 10%;
+	margin-right: 10%;
+	text-align: center;
 	font-size: 18px;
+	line-height: 1.5em;
 	background:  transparent;
+	font-weight: bold;
 }
 
 .copiar {
 	position: absolute;
 	right: 37%;
-	top: 90%;
+	top: 88%;
 	width: 8rem;
 	height: 2.5rem;
 	font-size: 16px;
