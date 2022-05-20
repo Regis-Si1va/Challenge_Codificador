@@ -141,9 +141,8 @@ header img {
 .texto::placeholder {
 	position: absolute;
 	margin-top: 86%;
-	margin-left: 10%;
-	margin-right: 10%;
-	text-align: center;
+	margin-left: 15%;
+	margin-right: 15%;
 	word-wrap: initial;
 	font-size: 18px;
 	line-height: 1.5em;
