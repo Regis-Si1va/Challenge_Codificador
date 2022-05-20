@@ -127,7 +127,7 @@ header img {
 }
 
 #retangulo {
-	display: inline-flex;
+	display: flex;
 	border: none;
 	position: absolute;
 	width: 30%;
@@ -138,17 +138,13 @@ header img {
 	border-radius: 32px;
 }
 
-#retangulo p {
-	margin-top: 95%;
-	text-align: center;
-}
-
 .texto::placeholder {
 	position: absolute;
 	margin-top: 86%;
 	margin-left: 10%;
 	margin-right: 10%;
 	text-align: center;
+	word-wrap: initial;
 	font-size: 18px;
 	line-height: 1.5em;
 	background:  transparent;
